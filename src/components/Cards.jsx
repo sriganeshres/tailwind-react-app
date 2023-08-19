@@ -6,8 +6,8 @@ import Triple from "../assets/triple.png"
 const Card = () => {
     return (
         <div className="bg-white w-full py-[10rem] mx-auto px-4">
-            <div className="max-w-[1260px]  grid lg:grid-cols-3 gap-8">
-                <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
+            <div className="max-w-[1260px]  grid lg:grid-cols-3 justify-center items-center mx-auto gap-8">
+                <div className="w-full shadow-xl flex flex-col  p-4 my-4 rounded-lg hover:scale-105 duration-300">
                     <img className="w-[80px] mx-auto z-0 bg-white " src={Single} alt="Single" />
                     <h2 className="text-2xl font-bold text-center py-3">Single User</h2>
                     <p className="text-4xl font-bold text-center">$149</p>
